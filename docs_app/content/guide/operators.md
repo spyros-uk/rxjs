@@ -27,7 +27,8 @@ map(x => x * x)(of(1, 2, 3)).subscribe((v) => console.log(`value: ${v}`));
 
 ```
 
-will emit `1`, `4`, `9`.  Another useful operator is [`first`](/api/operators/first):
+will emit `1`, `4`, `9`.  Another useful operator is [`
+`](/api/operators/first):
 
 ```ts
 import { of } from 'rxjs';
@@ -50,7 +51,7 @@ obs.pipe(
   op1(),
   op2(),
   op3(),
-  op3(),
+  op4(),
 )
 ```
 
